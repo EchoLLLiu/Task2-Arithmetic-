@@ -8,6 +8,7 @@
 - 进行正确率的统计以及分数评定<br>
 ### 2.项目操作说明：<br>
 - 该项目有两个文件：arithmetic.py函数文件以及start.py启动文件
+- 测试文件：arith_test.py
 - 使用控制台运行该文件：<br>
 输入python start.py -h，查询该程序帮助文档<br>
 输入python start.py -n x，x为想要生成的题目个数。
