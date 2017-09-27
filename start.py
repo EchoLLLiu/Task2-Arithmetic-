@@ -10,12 +10,12 @@ def main(argv):
 	try:
 		options,args = getopt.getopt(sys.argv[1:],"hn:",["help","num="])
 	except getopt.GetoptError:
-		print ('arithmetic.py -n <the number of questions>  -h <help for this program>')
+		print ('start.py -n <the number of questions>  -h <help for this program>')
 		sys.exit(2)
 	for opt,arg in options:
 		#当输入为-h时，打印提示信息
 		if opt == '-h':
-			print ('使用方法：arithmetic.py -n <the number of questions> or -h <help for this program>')
+			print ('使用方法：start.py -n <the number of questions> or -h <help for this program>')
 			sys.exit()
 		#当输入为-n时，后续输入的数字即为题目个数
 		elif opt in ("-n", "--num"):
